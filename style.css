@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: white;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+.logo{
+    max-height: 60x;
+    border-radius: 30px;
+    margin-left: 60px;
+ 
+
+
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    
+}
+nav ul li a{
+    color: #000000;
+    position: relative;
+    padding: 5px 0;
+   
+    
+}
+nav ul li a:hover{
+    color: #fd4766;
+}
+/* navbar texts*/
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    width: 0px;
+    height: 3px;
+    background: #fd4766;
+    transition: .3s;
+    bottom: 0;
+
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+/* btn- css for red buttons*/
+.btn{
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #fd4766;
+    border: 2px solid #fd4766;
+}
+.btn:hover{
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
+/* btn2  covered in all white*/
+.btn2{
+    color: #20cbff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #20cbff;
+    border: 2px solid #20cbff;
+}
+.btn2:hover{
+    background: transparent;
+    border-color: #20cbff;
+    color: #20cbff;
+}
+.content{
+    position: absolute;
+    top: 25%;
+    left: 8%;
+}
+.content .title{
+    color: #1f1f25;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: white;
+}
+.content h1{
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content h1 span{
+    color: #fd4766;
+}
+.content p{
+    font-size: 20px;
+    width: 55%;
+    color: darkcyan;
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+}
+.content img{
+    width: 250px;
+    height: 300px;
+    margin-left: 70%;
+    margin-bottom: 50px;
+}
+.profile {
+
+    text-align: right;
+
+  }
+  .skills{
+    position: absolute;
+    top: 110%;
+    left: 8%;
+    list-style-type:none;
+   
+
+}
+
+.skills2{
+  position: absolute;
+  top: 110%;
+  left: 70%;
+  list-style-type:none;
+ 
+
+}
+
+
+.facebook{
+    position: absolute;
+    
+ 
+}
+.facebook img{
+    width: 175px;
+    height: 150px;
+    border-color: rgb(80, 100, 100);
+  
+
+    
+}
+.twitter{
+    position: absolute;
+    top: 270px;
+    left: 84%;
+  
+    
+}
+.twitter img{
+    width: 120px;
+    height: 120px;
+    border-color: rgb(80, 100, 100);
+  
+
+    
+}
+
+.insta{
+    position: absolute;
+    top: 450px;
+    left: 83%;
+  
+    
+}
+.insta img{
+    width: 120px;
+    height: 120px;
+    border-color: rgb(80, 100, 100);  
+}
+
+.tiktok{
+    position: absolute;
+    top: 450px;
+    left:70%;
+  
+    
+}
+.tiktok img{
+    width: 190px;
+    height: 120px;
+    border-color: rgb(80, 100, 100);  
+}
+.socmed{
+    position: absolute;
+    top: -280%;
+  left: 80%;
+}
+
+.socmed h2{
+    color: #1f1f25;
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: white;
+}
+
+/* btn3  covered in all white*/
+.btn3{
+    color: #20cbff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 6px 0px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 50% 10%;
+    background: #20cbff;
+    border: 2px solid #20cbff;
+    left: 10px;
+}
+.btn3:hover{
+    background: transparent;
+    border-color: #20cbff;
+    color: #20cbff;
+}
+.serv{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.serv .title{
+    color: #1f1f25;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: teal;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: white;
+    right: 30%;
+}
+.video{
+    position: absolute;
+    top: 45%;
+    left: 18%;
+}
+.video p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.video img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 100%;
+    left: 14%;
+}
+
+.web{
+    position: absolute;
+    top: 45%;
+    left: 48%;
+}
+.web p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.web img{
+    width: 108px;
+    height: 108px;
+    position: absolute;
+    top: 100%;
+    left: 14%;
+}
+.photo{
+    position: absolute;
+    top: 45%;
+    left: 77%;
+    
+}
+.photo p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.photo img{
+    width: 100px;
+    height: 100px;
+position: absolute;
+    top: 90%;
+    left: 16%;
+}
+
+/* hero 2- css for navbar center */
+.hero2{
+ 
+
+    width: 105;
+    height: 100vh;
+    background: white;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #20cbff; /* navbar color*/
+  
+}
+.logo{
+    max-height: 60px;
+    border-radius: 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+ 
+}
+nav ul li a{
+    color: #000000;
+    position: relative;
+    padding: 5px 0;
+   
+    
+}
+nav ul li a:hover{
+    color: #fd4766;
+}
+/* navbar texts*/
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    width: 0px;
+    height: 3px;
+    background: #fd4766;
+    transition: .3s;
+    bottom: 0;
+
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+
+.lorem1video{
+    position: absolute;
+    top: 70%;
+    left: 74%;
+}
+.lorem2web{
+    position: absolute;
+    top: 70%;
+    left: 45%;
+}
+.lorem3photo{
+    position: absolute;
+    top: 70%;
+    left: 15%;
+}
+.contentserve{
+    position: absolute;
+    top: 18%;
+    left: 43%;
+    
+}
+.contentserve .title{
+    color: #1f1f25;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: white;
+}
+
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .contentserve2{
+    margin-top: 50px;
+ text-align: center;
+
+    
+}
+.contentserve2 .title{
+    color: #1f1f25;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%,#fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: white;
+}
+
+.images{
+ 
+    position: absolute;
+    top: 40%;
+    text-align: center;
+
+  
+}
+.images img{
+    height: 300px;
+    width: 400px;
+
+}
+
+.images2{
+    position: absolute;
+    top: 70%;
+    text-align: center;
+   
+   
+}
+.images2 img{
+    height: 300px;
+    width: 400px;
+    margin-top: 10px;
+}
+
